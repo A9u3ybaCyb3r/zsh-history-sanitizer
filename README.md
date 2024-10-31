@@ -14,3 +14,11 @@ The **Zsh History Sanitizer** is a simple shell script designed to clean and san
    ```bash
    git clone https://github.com/yourusername/zsh-history-sanitizer.git
    cd zsh-history-sanitizer
+
+2. Make the script executable:
+   ```bash
+   chmod +x zsh_history_sanitizer.zsh
+
+3. Run the script:
+   ```bash
+   ./zsh_history_sanitizer.zsh
