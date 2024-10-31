@@ -1,2 +1,16 @@
-# zsh-history-sanitizer
-Zsh History Sanitizer: A simple script to clean and sanitize your Zsh command history by removing non-readable entries, ensuring a tidy and secure .zsh_history file. The script renames the existing history file, extracts readable commands, and reloads the cleaned history for immediate use.
+# Zsh History Sanitizer
+
+## Overview
+The **Zsh History Sanitizer** is a simple shell script designed to clean and sanitize your Zsh command history. By removing non-readable or corrupted entries, it ensures that your `.zsh_history` file remains tidy and secure, preventing the accidental exposure of sensitive commands.
+
+## Features
+- **Backup Creation**: Renames the current `.zsh_history` file to `.zsh_history_bad` for backup purposes.
+- **Readability Enhancement**: Utilizes the `strings` command to extract readable entries and create a new `.zsh_history` file.
+- **Instant Reload**: Immediately reloads the cleaned history into the current shell session.
+- **Cleanup**: Removes the backup file after processing to save space.
+
+## Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/zsh-history-sanitizer.git
+   cd zsh-history-sanitizer
