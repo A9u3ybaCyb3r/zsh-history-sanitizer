@@ -12,7 +12,7 @@ The **Zsh History Sanitizer** is a simple shell script designed to clean and san
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/zsh-history-sanitizer.git
+   git clone https://github.com/A9u3ybaCyb3r/zsh-history-sanitizer.git
    cd zsh-history-sanitizer
 
 2. Make the script executable:
